@@ -1,10 +1,14 @@
 site_name: Documentation template
 
 nav:
-    - Tutorials: tutorials/tutorials.md
-    - How-to Guides: howto/howto.md
-    - Reference: reference/reference.md
-    - Discussions: discussions/discussions.md
+    - Tutorials:
+        - Tutorials: tutorials/tutorials.md
+    - How-to Guides:
+        - How-to: howto/howto.md
+    - Reference:
+        - Getting catalogs: reference/download.md
+    - Discussions:
+        - Discussions: discussions/discussions.md
 
 extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
